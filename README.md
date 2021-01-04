@@ -1,0 +1,22 @@
+# Glass-classification
+
+**About**
+
+A data science project to classify glass types based on elemental composition.
+
+
+**Dataset description**
+
+Source of the dataset: https://www.kaggle.com/uciml/glass
+
+This dataset is a dataset of various samples of glass. This dataset has 215 valid samples. The target is the glass type - already converted into integers between 1 and 7 inclusive, and the features are the refractive index of the sample (RI), as well as the percent by weight of each of the following elements: Mg (Magnesium), Al (Aluminum), Si (Silicon), K (Potassium), Ca (Calcium), Ba (Barium), Fe (Iron). Thus this is a classification dataset, and each of the number classes of glass type corresponds to the use of the glass type as follows:
+
+1 – float-processed building windows
+2 – non-float-processed building windows
+3 – float-processed vehicle windows
+4 – non-float-processed vehicle windows
+5 – containers
+6 – tableware
+7 – headlamps
+
+This may not seem like the most interesting dataset, but most of the other ones I found have had 20-40 features in them, and since the goal in this project is to create a rigorous model on just a few features, I felt I could not justify simply dropping most of the features in those other datasets to make it the way I liked. This dataset is also very useful with our current knowledge since each of the features is numerical or ordinal – rather than categorical – and just in thinking about each of the features, I can envision myself manipulating certain features to have more of an impact or less of an impact on the target. For example, I know silicone is one of the main elements in glass, so I expect to make some additional features out of it. In other datasets, since I don't really know and understand what each of the features mean, I wouldn't know where to start. I also especially like how the target has a couple different classes, rather than just 2 as we usually see. I think this dataset will be both rigorous and feasible to analyze and fit, and I personally have never thought much about different types of glass before, so this will be a good place to start and learn some information!
