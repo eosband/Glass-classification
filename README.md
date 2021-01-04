@@ -2,7 +2,11 @@
 
 **About**
 
-A data science project to classify glass types based on elemental composition.
+A data science project to classify glass types based on elemental composition. See the project
+
+**Instructions**
+
+See `Data Science.ipynb` for the full notebook walkthrough.
 
 
 **Dataset description**
